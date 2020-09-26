@@ -20,6 +20,8 @@ import java.io.IOException;
  *      增加emp的数据，同时增加empbak的数据
  *
  * 将项目打包为依赖包传到hbase服务器上
+ *
+ * 在创建表时设定协处理器
  */
 public class InsertCoprocessor extends BaseRegionObserver {
 
